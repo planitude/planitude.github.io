@@ -28,15 +28,15 @@
     //@include grid-column(14);
     @include breakpoint(small) {
       @include grid-col-size(11);
-      border: 2px solid purple;
+      //border: 2px solid purple;
     }
     @include breakpoint(medium) {
       @include grid-col-size(10);
-      border: 2px solid green;
+      //border: 2px solid green;
     }
     @include breakpoint(large) {
       @include grid-col-size(8);
-      border: 2px solid blue;
+      //border: 2px solid blue;
     }
     @include grid-column-position(center);
   }

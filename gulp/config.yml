@@ -21,7 +21,7 @@ javascriptfirst:
   src:
     - "assets/js/components/modernizr-custom.js"
     - "assets/js/components/fonts.js"
-    - "assets/vendor/loadcss/loadCSS.js"
+    #- "assets/vendor/loadcss/loadCSS.js"
     - "assets/vendor/lazysizes/lazysizes.js"
     - "assets/js/components/custom.js"
 
@@ -51,7 +51,7 @@ javascript:
 
     - "assets/vendor/waypoints/lib/jquery.waypoints.js"
     - "assets/vendor/waypoints/lib/shortcuts/infinite.js"
-    - "assets/vendor/waypoints/lib/waypoints.debug.js"
+    #- "assets/vendor/waypoints/lib/waypoints.debug.js"
 
     #- "assets/vendor/featherlight/src/featherlight.js"
 
