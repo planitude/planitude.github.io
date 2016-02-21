@@ -1,0 +1,25 @@
+<!--
+Jekyll Date Formatting Examples
+http://alanwsmith.com/jekyll-liquid-date-formatting-examples
+-->
+{% assign date_full = include.date_full %}
+
+<time datetime="{{ date_full | date_to_xmlschema }}" itemprop="datePublished">
+  {{ date_full | date: "%-d" }}
+  {% assign m = date_full | date: "%-m" %}
+  {% case m %}
+    {% when '1' %}janvier
+    {% when '2' %}février
+    {% when '3' %}mars
+    {% when '4' %}avril
+    {% when '5' %}mai
+    {% when '6' %}juin
+    {% when '7' %}juillet
+    {% when '8' %}août
+    {% when '9' %}septembre
+    {% when '10' %}octobre
+    {% when '11' %}novembre
+    {% when '12' %}décembre
+  {% endcase %}
+  {{ date_full | date: "%Y" }}
+</time>

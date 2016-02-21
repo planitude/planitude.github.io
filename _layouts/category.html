@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<main id="site-body" class="category">
+
+  {% include components/header_page.html %}
+
+  <div class="section content-main listing">
+    <div class="section-inner">
+
+    {% unless page.content == '' %}
+      <p>{{ page.content }}</p>
+    {% endunless %}
+
+    {% for post in site.categories.[page.type] %}
+      {% include article-short.html %}
+    {% endfor %}
+
+    </div>
+  </div>
+
+</main>
+<script id="dsq-count-scr" src="//planitudefr.disqus.com/count.js" async></script>

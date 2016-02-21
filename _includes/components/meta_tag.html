@@ -1,0 +1,18 @@
+
+
+
+{% assign tag_list = include.tag_list %}
+{% if tag_list.size > 0 %}
+
+  {% capture tag_content %}
+  <span class="meta-tag"><span class="show-for-sr">Tags :</span>&nbsp;
+    {% for post_tag in tag_list %}
+      {% assign tag = site.data.tags[post_tag] %}
+         <a href="/{{ tag.slug }}" rel="tag">{{ tag.name }}</a>
+         {% unless forloop.last %}&comma;&nbsp;{% endunless %}
+    {% endfor %}
+  </span>
+  {% endcapture %}
+{% else %}
+  {% capture tag_content %}  {% endcapture %}
+{% endif %}

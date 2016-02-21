@@ -1,0 +1,118 @@
+// --------------------------------------------------
+// Layout post
+// --------------------------------------------------
+
+main {
+  @include grid-row;
+
+  //other elements
+  //@include grid-column;
+}
+
+
+#footer-nav {
+  @include clearfix;
+  .empty-img {
+    width: 150px;
+    background-color: rgba(0,0,0,0.1);  
+  }
+  .prev, .next {
+    width: 50%;
+    float: left;
+    position: relative;
+    float: left;
+    .tblc-link, .tblc-txt, .tblc-img {
+      position: relative;
+      display: inline-block;
+    }
+    .tblc-txt {
+      display: none;
+      //width: 50%;
+      vertical-align: middle;
+      h4 {
+        font-size: rem-calc(16);
+      }
+      @include breakpoint(medium) {
+        display: inline-block;
+      }
+    }
+    .tblc-img {
+      a {
+        &:after {
+          position: absolute;
+          content: '';
+          top: 0;
+          height: 100%;
+          width: 30px;
+          z-index: 1;
+          display: block;
+          background-color: rgba(0, 0, 0, .2);
+        }
+      }
+    }
+    > a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 3;
+      display: block;
+    }
+  }
+  .prev {
+    text-align: left;
+    .tblc-img {
+      margin-right: 1em;
+      a::after {
+        left: 0;
+      }
+    }
+    .tblc-img {
+      text-align: left;
+    }
+  }
+  .next {
+    text-align: right;
+    .tblc-img {
+      margin-left: 1em;
+      a::after {
+        right: 0;
+      }
+    }
+  }
+  .tblc-img {
+    text-align: right;
+  }
+}
+
+.icon-next, .icon-prev {
+  color: white;
+  font-size: rem-calc(24);
+  &:before {
+    z-index: 2;
+    height: 32px;
+    bottom: 0;
+    top: 0;
+    margin: auto 0 !important;
+    position: absolute;
+  }
+}
+.icon-prev {
+  &:before {
+    left: 0;
+  }
+}
+.icon-next {
+  &:before {
+    right: 0;
+  }
+}
+
+.icon-next {
+  @include icon($icon-arrow-right2, 'before');
+}
+
+.icon-prev {
+  @include icon($icon-arrow-left2, 'before');
+}

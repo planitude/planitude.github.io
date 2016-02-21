@@ -1,0 +1,14 @@
+
+<div class="infinite-container listing">
+{% for post in paginator.posts %}
+
+	{% include article-short.html %}
+
+{% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+	{% if paginator.next_page %}
+		<a class="infinite-more-link" href="{{ paginator.next_page_path }}">plus d'articles...</a>
+	{% endif %}
+{% endif %}

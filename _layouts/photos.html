@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<main id="site-body" class="albums">
+
+  {% include components/header_page.html %}
+
+  <div class="section content-main listing">
+    <div class="section-inner">
+      {% unless page.content == '' %}
+        <p>{{ page.content }}</p>
+      {% endunless %}
+
+      <!-- <ul class="photo-grid">
+        {% for item in page.album %}
+        <li>
+            <a
+              href="{{ item.img_path }}_b.jpg" title="{{ item.img_title }}" data-sub-html="{{ item.img_title }}">
+            <img src="{{ item.img_path }}_m.jpg" class="img-responsive" alt="{{ item.img_title }}">
+          </a>
+          <p>{{ item.img_title }}</p>
+        </li>
+        {% endfor %}
+      </ul> -->
+
+      <hr>
+      <ul class="photo-list">
+        {% for item in page.album %}
+          <li>
+            <a
+            href="{{ item.img_path }}_b.jpg" title="{{ item.img_title }}" data-sub-html="{{ item.img_title }}">
+              <img src="{{ item.img_path }}_m.jpg" class="lazyload img-responsive" alt="{{ item.img_title }}">
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+
+</main>

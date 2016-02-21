@@ -1,0 +1,16 @@
+
+{% assign cat_list = include.cat_list %}
+
+{% if cat_list.size > 0 %}
+  {% capture category_content %}
+  <span class="meta-cat"><span class="show-for-sr">Catégorie :</span>&nbsp;
+    {% for post_category in cat_list %}
+      {% assign category = site.data.categories[post_category] %}
+      <a href="/{{ category.slug }}" rel="tag">{{ category.name }}</a>
+      {% unless forloop.last %}&comma;&nbsp;{% endunless %}
+    {% endfor %}
+  </span>
+  {% endcapture %}
+{% else %}
+  {% capture category_content %}  {% endcapture %}
+{% endif %}

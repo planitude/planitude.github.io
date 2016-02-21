@@ -1,0 +1,59 @@
+bilan:
+  slug: bilan
+  name: Bilan
+
+breve:
+  slug: breve
+  name: Brève
+
+culture:
+  slug: culture
+  name: Culture
+
+detente:
+  slug: detente
+  name: Détente
+
+ethnique:
+  slug: ethnique
+  name: Ethnique
+
+fourgon:
+  slug: fourgon
+  name: Fourgon
+
+frontiere:
+  slug: frontiere
+  name: Frontière
+
+nature:
+  slug: nature
+  name: Nature
+
+plongee:
+  slug: plongee
+  name: Plongée
+
+preparation:
+  slug: preparation
+  name: Préparation
+
+presentation:
+  slug: presentation
+  name: Présentation
+
+rando:
+  slug: rando
+  name: Rando
+
+scooter:
+  slug: scooter
+  name: Scooter
+
+transport:
+  slug: transport
+  name: Transport
+
+etape:
+  slug: etape
+  name: Etape

@@ -1,0 +1,63 @@
+{% assign tag_list = {{ include.tag_list }} %}
+{% if {{ tag_list }}.size > 0 %}
+  {% capture tag_content %}
+  <span class="meta-tag"><span class="show-for-sr">Tags :</span>&nbsp;
+    {% for post_tag in {{ tag_list }} %}
+      {% assign tag = site.data.tags[post_tag] %}
+         <a href="/{{ tag.slug }}">{{ tag.name }}</a>
+         {% unless forloop.last %}&comma;&nbsp;{% endunless %}
+    {% endfor %}
+  </span>
+  {% endcapture %}
+{% else %}
+  {% capture category_tag %}  {% endcapture %}
+{% endif %}
+
+
+<span class="meta-tag"><span class="show-for-sr">Tags :</span>&nbsp;
+  {% for post_tag in tag_list %}
+    {% assign tag = site.data.tags[post_tag] %}
+       <a href="/{{ tag.slug }}">{{ tag.name }}</a>
+       {% unless forloop.last %}&comma;&nbsp;{% endunless %}
+  {% endfor %}
+</span>
+
+
+
+
+
+{% if include.param == 'page' %}
+  {% assign tag_list = page.tags %}
+  {% assign tag_list_size = page.tags.size %}
+{% else %}
+  {% assign tag_list = post.tags %}
+  {% assign tag_list_size = post.tags.size %}
+{% endif %}
+
+
+
+{% if tag_list_size > 0 %}
+  {% capture tag_content %}
+    {{ tag_list_size }}
+  {% endcapture %}
+{% else %}
+  {% capture tag_content %}
+    {{ tag_list_size }}
+  {% endcapture %}
+{% endif %}
+
+
+
+
+{% if page.category.size > 0 %}
+  {% capture category_content %}
+    <span class="meta-cat"><span class="show-for-sr">Catégorie :</span>&nbsp;
+    {% for post_category in page.category %}
+      {% assign category = site.data.categories[post_category] %}
+         <a href="/{{ category.slug }}">{{ category.name }}</a></span>
+         {% unless forloop.last %}&comma;&nbsp;{% endunless %}
+    {% endfor %}
+  {% endcapture %}
+{% else %}
+  {% capture category_content %}  {% endcapture %}
+{% endif %}

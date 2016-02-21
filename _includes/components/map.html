@@ -1,0 +1,51 @@
+
+{% if page.coordinates %}
+
+
+<!-- <div id="mapModal" class="lightbox">
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.css' rel='stylesheet' />
+  <div id='map'></div>
+</div> -->
+
+<div class="map-wrapper">
+  <!-- <a data-zoom="{% if page.zoom %}{{ page.zoom }}{% else %}9{% endif %}" data-location="{{ site.page.locations }}" data-coordonates="{% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %}" class="display-map"> -->
+    <!-- <img src="http://api.tiles.mapbox.com/v4/{{ site.mapbox.mapid }}/pin-l-building+607d8b({% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %})/{% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if page.zoom %}{{ page.zoom }}{% else %}9{% endif %}/1280x300.png?access_token={{ site.mapbox.maptoken }}"> -->
+    <!-- © <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a> -->
+  <!-- </a> -->
+</div>
+
+<!-- <div class="reveal" id="mapModal">
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.css' rel='stylesheet' />
+  <div id='map'></div>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="map-wrapper">
+  <a data-zoom="{% if page.zoom %}{{ page.zoom }}{% else %}9{% endif %}" data-location="{{ site.page.locations }}" data-coordonates="{% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %}" class="display-map">
+  </a>
+</div> -->
+
+
+<style>
+@media screen and (max-width: 39.9375em) {
+  .map-wrapper {
+    background-image: url("http://api.tiles.mapbox.com/v4/{{ site.mapbox.mapid }}/pin-l-building+607d8b({% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %})/{% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if page.zoom %}{{ page.zoom }}{% else %}9{% endif %}/640x300.png?access_token={{ site.mapbox.maptoken }}");
+    display: block !important; } }
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .map-wrapper {
+    background-image: url("http://api.tiles.mapbox.com/v4/{{ site.mapbox.mapid }}/pin-l-building+607d8b({% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %})/{% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if page.zoom %}{{ page.zoom }}{% else %}9{% endif %}/1024x300.png?access_token={{ site.mapbox.maptoken }}");
+    display: block !important; } }
+
+@media screen and (min-width: 64em) {
+  .map-wrapper {
+    background-image: url("http://api.tiles.mapbox.com/v4/{{ site.mapbox.mapid }}/pin-l-building+607d8b({% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %})/{% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if page.zoom %}{{ page.zoom }}{% else %}9{% endif %}/1280x300.png?access_token={{ site.mapbox.maptoken }}");
+    display: block !important; } }
+
+</style>
+
+{% endif %}

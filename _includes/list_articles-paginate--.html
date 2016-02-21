@@ -1,0 +1,79 @@
+
+<div class="infinite-container">
+{% for post in paginator.posts %}
+
+	<article itemscope itemtype="http://schema.org/BlogPosting" class="row infinite-item">
+		<h3><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span></h3>
+		<h4>{{ post.subtitle }}</h4>
+			<div class="columns article-picture">
+				{% if post.cover %}
+					{% include image.html
+					  src=post.cover
+					  alt=post.title
+						link=post.url
+					%}
+				{% endif %}
+			</div>
+			<div class="columns article-body">
+				<aside class="article-meta">
+						<span class="meta-date"><span class="show-for-sr">Article publié le :</span>&nbsp;
+						{% include components/date.html date_full=post.date %}
+						</span>
+						<span class="meta-comment">
+              <span class="show-for-sr">Commentaires :</span>
+              <span class="disqus-comment-count" data-disqus-url="{{ site.baseurl }}{{ post.url }}"> <!-- Count will be inserted here --> </span>
+						</span>
+
+						{% include components/meta_category.html cat_list=post.category %}
+            {{ category_content }}
+            {% include components/meta_tag.html tag_list=post.tags %}
+            {{ tag_content }}
+				</aside>
+
+				<div class="article-description">
+					<p>{{ post.description | strip_html | truncatewords:40 }}</p>
+
+				</div>
+
+				<div class="more"><a href="{{ site.baseurl }}{{ post.url }}">Lire l'article</a></div>
+
+			</div>
+
+	</article>
+
+{% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+	{% if paginator.next_page %}
+		<a class="infinite-more-link" href="{{ paginator.next_page_path }}">link</a>
+	{% endif %}
+{% endif %}
+
+
+	<!-- {% if paginator.total_pages > 1 %}
+	<nav>
+	    <ul class="pagination">
+	  {% if paginator.previous_page %}
+	    <li class="arrow page-prev"><a href="{{ paginator.previous_page_path }}">&laquo; Prev</li>
+	  {% else %}
+	    <li class="arrow unavailable">&laquo; Prev</li>
+	  {% endif %}
+
+	  {% for page in (1..paginator.total_pages) %}
+	    {% if page == paginator.page %}
+	      <li class="current"><em>{{ page }}</em></li>
+	    {% elsif page == 1 %}
+	      <li><a href="{{ site.baseurl }}">{{ page }}</a></li>
+	    {% else %}
+	      <li><a href="../{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a></li>
+	    {% endif %}
+	  {% endfor %}
+
+	  {% if paginator.next_page %}
+			<li class="arrow page-next"><a href="{{ paginator.next_page_path }}">Next &raquo;</a></li>
+	  {% else %}
+	    <li class="arrow unavailable">Next &raquo;</li>
+	  {% endif %}
+	</div>
+	{% endif %} -->

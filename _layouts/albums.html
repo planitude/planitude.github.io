@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<main id="site-body" class="albums">
+
+  {% include components/header_page.html %}
+
+  <div class="section content-main listing">
+    <div class="section-inner">
+      {% unless page.content == '' %}
+        <p>{{ page.content }}</p>
+      {% endunless %}
+
+      {% for item in page.albums %}
+        {% capture cover_path %}https:farm{{ item.album_farm }}.staticflickr.com/{{ item.album_server }}/{{ item.album_cover }}_{{ item.album_secret }}_m.jpg{% endcapture %}
+        <div class="album">
+          <a href="/photos/{{ item.album_url }}">
+            <img src="{{ cover_path }}" class="lazyload img-responsive" alt="{{ item.album_title }}">
+            <div class="album-caption">
+                {{ item.album_title }}
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</main>

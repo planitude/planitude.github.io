@@ -1,0 +1,103 @@
+// --------------------------------------------------
+// Footers
+// --------------------------------------------------
+
+#site-footer {
+  background-color: $primary-color;
+  color: $medium-gray;
+  padding: 2rem 1rem 0.5rem 1rem;
+  .row {
+    max-width: 1200px;
+    width: 100%;
+  }
+  .copyright {
+    clear: both;
+    text-align: center;
+    font-size: rem-calc(14);
+    padding: 1rem 0;
+    margin: 0;
+    @include breakpoint(medium) {
+      text-align: left;
+    }
+  }
+  a {
+    color: $medium-gray;
+    &:hover {
+      color: $light-gray;
+    }
+  }
+  .avatar {
+    border-radius: 50%;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    @include breakpoint(medium) {
+      width: 20%;
+      display: inline-block;
+    }
+    @include breakpoint(large) {
+      width: 20%;
+    }
+  }
+  .footer-social,
+  .footer-links {
+
+  }
+  .footer-social {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    @include breakpoint(medium) {
+      padding-top: auto;
+      padding-bottom: auto;
+    }
+  }
+  .footer-links {
+    display: inline-block;
+  }
+  .footer-links-links {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    @include breakpoint(medium) {
+      margin: 0 2rem;
+      display: inline-block;
+      text-align: left;
+      padding-top: auto;
+      padding-bottom: auto;
+    }
+    li {
+      display: inline-block;
+    }
+  }
+  .footer-social-list {
+    text-align: center;
+    li {
+      display: inline-block;
+      //text-align: center;
+    }
+    @include breakpoint(medium) {
+      text-align: right;
+      li {
+        display: block;
+      }
+    }
+    a {
+      &:after {
+        font-size: rem-calc(25);
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+  .vimeo {
+    @include icon($icon-vimeo, 'after');
+  }
+  .flickr {
+    @include icon($icon-flickr2, 'after');
+  }
+  .rss {
+    @include icon($icon-rss, 'after');
+  }
+}

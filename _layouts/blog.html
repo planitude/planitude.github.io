@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<main id="site-body" class="blog">
+
+  {% include components/header_page.html %}
+  <div class="section content-main listing">
+    <div class="section-inner">
+
+      {{ content }}
+
+      {% for post in site.posts %}
+        {% include article-short.html %}
+      {% endfor %}
+
+    </div>
+  </div>
+
+</main>
+<script id="dsq-count-scr" src="//planitudefr.disqus.com/count.js" async></script>

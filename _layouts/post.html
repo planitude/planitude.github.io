@@ -1,0 +1,132 @@
+---
+layout: default
+---
+
+<main id="site-body" class="post">
+
+  <article itemscope itemtype="http://schema.org/BlogPosting" id="top">
+
+    {% include components/header_page.html %}
+
+    <div class="section article-main-- content-main">
+      <div class="section-inner">
+
+        <aside class="article-meta">
+          <h3 id="intro" class="show-for-sr"><span>Intro</span></h3>
+          <div>
+            <span class="meta-date"><span class="show-for-sr">Article publié le :</span> {% include components/date.html date_full=page.date %}</span>
+            <span class="meta-comment">
+              <span class="show-for-sr">Commentaires :</span>
+              <span class="disqus-comment-count" data-disqus-url="{{ site.baseurl }}{{ page.url }}"> <!-- Count will be inserted here --> </span>
+            </span>
+          </div>
+          <div>
+            {% include components/meta_category.html cat_list=page.category %}
+            {{ category_content }}
+            {% include components/meta_tag.html tag_list=page.tags %}
+            {{ tag_content }}
+          </div>
+          <div>
+            {% capture words %}
+              {{ content | number_of_words | minus: 180 }}
+            {% endcapture %}
+            {% unless words contains "-" %}
+              {{ words | plus: 180 | divided_by: 180 | append: " minutes de lecture" }}
+            {% endunless %}
+          </div>
+          {% include components/map.html %}
+        </aside>
+
+        <div class="article-body" itemprop="articleBody">
+
+          <div class="article-description">
+            <p>{{ page.description }}</p>
+          </div>
+
+          {{ content }}
+
+        </div>
+        <!-- /article-body -->
+
+      </div>
+      <!-- /columns -->
+    </div>
+    <!-- /row -->
+
+    <!-- <footer class="article-footer">
+      Album photo
+    </footer> -->
+
+
+
+  </article>
+
+
+  <aside id="share-section" class="section">
+      <div class="text-center section-inner">
+        <h3 id="share"><span>Partager</span></h3>
+        {% include share.html %}
+      </div>
+  </aside>
+
+
+  <aside id="comments-section" class="section">
+    <div class="text-center section-inner">
+      <h3 id="comments"><span>Commentaires</span></h3>
+      <div id="disqus_thread"></div>
+
+    </div>
+  </aside>
+
+  <div class="text-right">
+    <a href="#top" class="page-scroll icon-top" id="page-top"><span class="show-for-sr">Top</span></a>
+  </div>
+
+  <aside id="footer-nav">
+    <nav>
+      <div class="prev">
+        {% if page.previous %}
+        <div class="tblc-img">
+          <a href="{{ site.baseurl }}/{{ page.previous.url }}" class="icon-prev" rel="prev">
+            {% if page.previous.cover %}
+            <img
+              class="lazyload"
+              src="{{ page.previous.cover }}_q.jpg"
+              alt="{{ page.previous.title }}" />
+            {% else %}
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="empty-img" />
+            {% endif %}
+          </a>
+        </div>
+        <div class="tblc-txt"><h4>{{ page.previous.title }}</h4></div>
+        <a href="{{ site.baseurl }}/{{ page.previous.url }}" rel="prev">
+          <span class="show-for-sr">{{ page.previous.title }}</span>
+        </a>
+        {% endif %}
+      </div>
+      <div class="next">
+        {% if page.next %}
+          <div class="tblc-txt"><h4>{{ page.next.title }}</h4></div>
+          <div class="tblc-img">
+            <a href="{{ site.baseurl }}/{{ page.next.url }}" class="icon-next" rel="next">
+              {% if page.next.cover %}
+              <img
+                class="lazyload"
+                src="{{ page.next.cover }}_q.jpg"
+                alt="{{ page.previous.title }}"  />
+                {% else %}
+                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="empty-img" />
+              {% endif %}
+            </a>
+          </div>
+          <a href="{{ site.baseurl }}{{ page.next.url }}" rel="next">
+            <span class="show-for-sr">{{ page.next.title }}</span>
+          </a>
+        {% endif %}
+      </div>
+    </nav>
+  </aside>
+
+</main>
+<!-- /site-body -->
+<script id="dsq-count-scr" src="//planitudefr.disqus.com/count.js" async></script>

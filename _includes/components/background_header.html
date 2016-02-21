@@ -1,0 +1,23 @@
+{% assign cover_id = include.cover_id %}
+
+<style>
+@media screen and (max-width: 39.9375em) {
+  article header, .article-header {
+    display: block !important;
+    background-image: url({{ cover_id | strip | append: '_z.jpg'}}); } }
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  article header, .article-header {
+    display: block !important;
+    background-image: url({{ cover_id | strip | append: '_c.jpg'}}); } }
+
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+  article header, .article-header {
+    background-image: url({{ cover_id | strip | append: '_h.jpg'}});
+    display: block !important; } }
+
+@media screen and (min-width: 75em) {
+  article header, .article-header {
+    background-image: url({{ cover_id | strip | append: '_h.jpg'}});
+    display: block !important; } }
+</style>

@@ -1,0 +1,131 @@
+// --------------------------------------------------
+// Fonts
+// --------------------------------------------------
+
+$font-path: "../fonts" !default;
+
+@font-face {
+    font-family: 'brandon_printedtwo_shadow';
+    src: url('#{$font-path}/brandonprintedtwo-shadow-webfont.eot');
+    src: url('#{$font-path}/brandonprintedtwo-shadow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}/brandonprintedtwo-shadow-webfont.woff2') format('woff2'),
+         url('#{$font-path}/brandonprintedtwo-shadow-webfont.woff') format('woff'),
+         url('#{$font-path}/brandonprintedtwo-shadow-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* icons */
+@font-face {
+    font-family: 'planitude';
+    src:    url('#{$font-path}/planitude.eot?z3xr56');
+    src:    url('#{$font-path}/planitude.eot?z3xr56#iefix') format('embedded-opentype'),
+        url('#{$font-path}/planitude.ttf?z3xr56') format('truetype'),
+        url('#{$font-path}/planitude.woff?z3xr56') format('woff'),
+        url('#{$font-path}/planitude.svg?z3xr56#planitude') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// [class^="icon-"], [class*=" icon-"],
+// [class^="meta-"], [class*=" meta-"] {
+//   &:before,
+//   &:after {
+//     /* use !important to prevent issues with browser extensions that change fonts */
+//     font-family: 'planitude' !important;
+//     speak: none;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-variant: normal;
+//     text-transform: none;
+//     line-height: 1;
+//
+//     /* Better Font Rendering =========== */
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//   }
+// }
+
+@mixin iconbase() {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'planitude' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin icon($icon, $side: 'before') {
+  @if ($side == 'before') {
+    &:before {
+      content: $icon;
+      margin-right: 0.8em;
+      @include iconbase();
+    }
+  }
+  @else {
+    &:after {
+      content: $icon;
+      margin-left: 0.8em;
+      @include iconbase();
+    }
+  }
+}
+
+$icon-image: "\e920";
+$icon-books: "\e900";
+$icon-file-empty: "\e927";
+$icon-file-text2: "\e921";
+$icon-folder: "\e901";
+$icon-folder-open: "\e922";
+$icon-price-tag: "\e902";
+$icon-envelop: "\e903";
+$icon-location: "\e904";
+$icon-map: "\e905";
+$icon-clock: "\e923";
+$icon-bubble: "\e906";
+$icon-bubble2: "\e907";
+$icon-search: "\e908";
+$icon-zoom-in: "\e909";
+$icon-menu: "\e90a";
+$icon-menu2: "\e90b";
+$icon-menu3: "\e90c";
+$icon-menu4: "\e90d";
+$icon-earth: "\e91b";
+$icon-bookmark: "\e924";
+$icon-bookmarks: "\e925";
+$icon-plus: "\e90e";
+$icon-minus: "\e90f";
+$icon-cancel-circle: "\e919";
+$icon-cross: "\e91a";
+$icon-checkmark: "\e926";
+$icon-play2: "\e928";
+$icon-pause: "\e929";
+$icon-arrow-up2: "\e91c";
+$icon-arrow-right2: "\e910";
+$icon-arrow-down2: "\e91d";
+$icon-arrow-left2: "\e911";
+$icon-circle-up: "\e91e";
+$icon-circle-right: "\e912";
+$icon-circle-down: "\e91f";
+$icon-circle-left: "\e913";
+$icon-section: "\e92a";
+$icon-new-tab: "\e92b";
+$icon-share2: "\e914";
+$icon-mail: "\e92c";
+$icon-google-plus2: "\e915";
+$icon-facebook2: "\e916";
+$icon-twitter: "\e917";
+$icon-rss: "\e918";
+$icon-rss2: "\e92d";
+$icon-vimeo: "\e92e";
+$icon-vimeo2: "\e92f";
+$icon-flickr2: "\e930";
+$icon-flickr3: "\e931";

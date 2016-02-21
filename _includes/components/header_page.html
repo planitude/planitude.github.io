@@ -1,0 +1,16 @@
+<header class="article-header parallax-background">
+
+{% capture cover %}
+  {% if page.cover %}
+    {{ page.cover }}
+  {% else %}
+    {{ site.cover_default }}
+  {% endif %}
+{% endcapture %}
+
+  {% include components/background_header.html cover_id=cover %}
+  <div class="header-text">
+      <h1 itemprop="name headline">{{ page.title }}</h1>
+      <div class="subheader">{{ page.subtitle }}</div>
+  </div>
+</header>

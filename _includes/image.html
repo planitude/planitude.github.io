@@ -1,0 +1,49 @@
+
+
+{% if include.src != "" %}
+
+  {% assign link = include.link %}
+
+  {% if link %}
+    {% if link == "no" %}
+      {% capture link_start %} {% endcapture %}
+      {% capture link_end %}{% endcapture %}
+    {% else %}
+      {% capture link_start %}
+        <a href="{{ link }}">
+      {% endcapture %}
+      {% capture link_end %}
+        </a>
+      {% endcapture %}
+    {% endif %}
+  {% else %}
+    {% capture link_start %}
+      <a href="{{ include.src }}_b.jpg" class="fluidbox">
+    {% endcapture %}
+    {% capture link_end %}
+      </a>
+    {% endcapture %}
+  {% endif %}
+
+  <figure class="thumbnail">
+      {{ link_start }}
+        <img
+          class="lazyload {{ include.classes }}"
+          src="{{ include.src }}_n.jpg"
+          srcset="{{ include.src }}_n.jpg 320w"
+          data-srcset="{{ include.src }}_n.jpg 320w,
+          {{ include.src }}_z.jpg 640w,
+          {{ include.src }}_c.jpg 800w,
+          {{ include.src }}_b.jpg 1024w"
+          alt="{{ include.alt }}"
+          title="{{ include.alt }}"
+          sizes="100vw">
+      {{ link_end }}
+    <figcaption>{{ include.alt }}</figcaption>
+  </figure>
+
+<!--
+srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== 320w"
+-->
+
+{% endif %}

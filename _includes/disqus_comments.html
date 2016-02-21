@@ -1,0 +1,49 @@
+
+<div id="disqus_thread"></div>
+<!-- https://help.disqus.com/customer/portal/articles/472107-using-disqus-on-ajax-sites -->
+<script type="text/javascript">
+
+  reset('planitudefr', '{{ page.url }}', '{{ page.title }}', 'fr');
+
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  //   var disqus_shortname = 'planitudefr';
+  //   var disqus_identifier = 'planitudefr';
+  //   var disqus_url = '{{ page.url }}';
+	// var disqus_config = function () {
+	//   this.language = "fr";
+	// };
+
+  var disqus_config = function () {
+    this.page.url = {{ page.url }}; // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'planitudefr'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.language = "fr";
+  };
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    // (function() {
+    //     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    //     dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    //     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    // })();
+
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = '//planitudefr.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    /* * * Disqus Reset Function * * */
+    var reset = function (newIdentifier, newUrl, newTitle, newLanguage) {
+        DISQUS.reset({
+            reload: true,
+            config: function () {
+                this.page.identifier = newIdentifier;
+                this.page.url = newUrl;
+                this.page.title = newTitle;
+                this.language = newLanguage;
+            }
+        });
+    };
+</script>
+<noscript>Vous devez activer le Javascript sur votre naigateur pour voir les commentaires</noscript>

@@ -1,0 +1,23 @@
+<footer id="site-footer">
+  <div class="row">
+
+    <div class="medium-8 columns footer-links">
+        <img src="{{site.url}}/assets/img/{{ site.owner.avatar }}" class="avatar" alt="{{ site.owner.name }}">
+        <ul class="footer-links-links menu">
+          <li><a href="{{site.url}}/legal">Légal</a></li>
+          <li><a href="{{site.url}}/contact">Contact</a></li>
+       </ul>
+    </div>
+
+    <div class="medium-4 columns footer-social">
+      <ul class="footer-social-list menu">
+        <li><a href="https://www.flickr.com/photos/planitude/albums" class="flickr" title="Photos sur Flickr"><span class="show-for-sr">Photos sur Flickr</span></a></li>
+        <li><a href="https://vimeo.com/planitude" class="vimeo" title="Vidéos sur Viméo"><span class="show-for-sr">Vidéos sur Viméo</span></a></li>
+        <li><a href="{{site.url}}/feed.xml" class="rss" title="RSS" rel="external"><span class="show-for-sr">RSS</span></a></li>
+      </ul>
+     </div>
+
+    <p class="copyright">© 2007 - {{ site.time | date: '%Y' }} Planitude, Tous droits réservés.</p>
+
+  </div>
+</footer>
