@@ -24,5 +24,3 @@ albums:
   album_url: indonesie
 
 ---
-
-liste des albums aa

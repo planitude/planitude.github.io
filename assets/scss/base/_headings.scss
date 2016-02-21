@@ -19,7 +19,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 992;
+  z-index: 992 !important;
   box-shadow: 0 1px 30px 1px rgba(0,0,0,.3);
   border-bottom: 5px solid $secondary-color;
   .burger {
@@ -139,6 +139,11 @@
       text-transform: uppercase;
       font-weight: 600;
   }
+}
+
+
+#site-header {
+  z-index: 992 !important;
 }
 
 .no-inlinesvg .logo {

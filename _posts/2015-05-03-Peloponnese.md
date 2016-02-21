@@ -156,7 +156,7 @@ En route vers le site, un petit arrêt au beau village de pierre d'**Aeropolis**
 %}
 
 
-###Notes
+
 
 >**Transport**
 >
