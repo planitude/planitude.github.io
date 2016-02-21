@@ -995,14 +995,14 @@ content: $icon-arrow-right2;
 	opacity: 1 !important;
 }
 
-.navbar-shrink .lg-backdrop,
-.navbar-shrink .lg-outer {
-  top: 125px !important;
-}
-
 .lg-backdrop,
 .lg-outer {
   top: 85px !important;
+}
+
+.navbar-shrink .lg-backdrop,
+.navbar-shrink .lg-outer {
+  top: 65px !important;
 }
 
 .lg-progress-bar .lg-progress {

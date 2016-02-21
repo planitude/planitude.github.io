@@ -159,5 +159,3 @@ album:
 - img_path: https://farm2.staticflickr.com/1605/24632225581_e64610713e
   img_title: Labuanbajo (Flores), Coucher de soleil
 ---
-
-L'Album photo Grèce....

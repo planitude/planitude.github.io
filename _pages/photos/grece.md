@@ -117,5 +117,3 @@ album:
 - img_path: https://farm2.staticflickr.com/1517/24692674442_90c29fa040
   img_title: Santorin - Cyclades
 ---
-
-L'Album photo Grèce....
