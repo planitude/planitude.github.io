@@ -156,7 +156,7 @@ En route vers le site, un petit arrêt au beau village de pierre d'**Aeropolis**
 %}
 
 
-
+### Notes
 
 >**Transport**
 >
@@ -176,5 +176,7 @@ En route vers le site, un petit arrêt au beau village de pierre d'**Aeropolis**
 >- **Domatia (chambre d'hôte) Kardamyli** *25€/nuit*
 >- **Hôtel Gerolimenas** *25€/nuit*
 >
->**Divers**  
+>**Divers**
+>  
 >- **Ticket site d'Olympie** *9€*
+>

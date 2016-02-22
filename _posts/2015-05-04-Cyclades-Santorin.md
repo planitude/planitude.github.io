@@ -120,7 +120,7 @@ A cette période de l'année, l'île est encore calme. Les touristes les plus pr
   alt='Voyage de noces chinois'
 %}
 
-
+### Notes
 
 >**Transport**
 >

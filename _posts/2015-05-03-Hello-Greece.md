@@ -21,7 +21,6 @@ description:
 
 {% include components/toc.html %}
 
-test
 
 J'avais initialement prévu de partir en Iran cette année mais avec l'attentat du début d'année contre Charlie Hebdo et les retours que je pouvais en voir dans la presse iranienne, j'avais peur que le sujet revienne systématiquement et que je doive me justifier sur le fait qu'une caricature du prophète ne constitue pas une offense. Du coup j'ai préféré reporté ce voyage.
 

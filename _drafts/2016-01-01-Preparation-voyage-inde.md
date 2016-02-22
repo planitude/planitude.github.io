@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Préparation du voyage en Grèce"
-subtitle: "du 21 au 27 avril 2015 -"
+title: "Préparation du voyage en Inde"
+subtitle: "le 22 février"
 description: "Le Péloponnèse est le berceau de la mythologie grecque mais également une belle nature."
 date: '2016-01-01'
-category: grece
+category: inde
 #cover: https://farm2.staticflickr.com/1481/24784249786_53e9528f62
-cover: https://farm2.staticflickr.com/1610/24464215144_88b13bae31
+cover: https://farm2.staticflickr.com/1544/25200715295_736bbba2b8
 tags:
   - preparation
   - presentation
@@ -35,7 +35,6 @@ tags:
 
 
 
-<!-- commentaire
 
 ### Titre 3
 
@@ -77,6 +76,7 @@ Liste :
 %}
 
 
+### Notes
 
 >**Transport**
 >
@@ -89,5 +89,3 @@ Liste :
 >**Divers**
 >
 >- **Location scooter** *15€/jour*
-
--->
