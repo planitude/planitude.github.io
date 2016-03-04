@@ -24,7 +24,7 @@ nb_comment: 0
 ---
 {% include components/toc.html %}
 
-Elles sont nombreuses et chacune possède sont identité. Des plus touristiques comme Santorin ou Mykonos à celles plus authentiques le choix est large. J'avais initialement prévu d'aller sur Milos mais les ferry étaient moins nombreux pour y aller, je me suis donc orienté vers Santorin.
+Elles sont nombreuses et chacune possède sont identité. Des plus touristiques comme Santorin ou Mykonos à celles plus authentiques le choix est large. J'avais initialement prévu d'aller sur Milos mais les ferry étaient moins nombreux pour y aller, je me suis donc orienté vers Santorin..
 
 
 
