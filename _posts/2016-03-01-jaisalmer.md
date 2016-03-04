@@ -6,8 +6,8 @@ description: "Aux portes du désert du Thar séparant l'Inde du Pakistan, le for
 date: '2016-03-01'
 cover: https://farm2.staticflickr.com/xxx
 coordinates:
- - lng,lat
-locations: xx
+ - 70.908344,26.915749
+locations: Jaisalmer
 zoom: 8
 tags:
   - etape
