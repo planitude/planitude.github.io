@@ -4,7 +4,7 @@ title: "Jaisalmer"
 subtitle: "du 27 février au 1er mars 2016"
 description: "Aux portes du désert du Thar séparant l'Inde du Pakistan, le fort de Jaisalmer avec les façades de ses maisons finement sculptées dans du gré blanc mérite bien son nom de perle du désert."
 date: '2016-03-01'
-cover: https://farm2.staticflickr.com/xxx
+cover: https://farm2.staticflickr.com/1670/25468070116_dc16358e27
 coordinates:
  - 70.908344,26.915749
 locations: Jaisalmer
