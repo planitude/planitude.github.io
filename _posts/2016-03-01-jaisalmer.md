@@ -9,7 +9,7 @@ category: inde
 coordinates:
  - 70.908344,26.915749
 locations: Jaisalmer
-zoom: 8
+zoom: 7
 tags:
   - etape
 ---
