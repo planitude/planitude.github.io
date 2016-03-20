@@ -2,7 +2,7 @@
 layout: post
 title: "Khajuraho"
 subtitle: "du 15 au 18 mars 2016"
-description: "Khajuraho est une petite ville de l'état du Madhya Pradesh. Elle est réputé pour ses temples recouverts de sculptures érotiques classés au patrimoine mondial de l'humanité"
+description: "Khajuraho est une petite ville de l'état du Madhya Pradesh. Elle est réputée pour ses temples recouverts de sculptures érotiques classés au patrimoine mondial de l'humanité"
 date: '2016-03-18'
 cover: https://farm2.staticflickr.com/1591/25835817721_cc6956bc7f
 coordinates:
