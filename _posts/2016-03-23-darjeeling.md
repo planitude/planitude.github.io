@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "Darjeeling"
-subtitle: "du 23 au 25 mars 2016"
-description: "La station climatique de Darjeeling est située à 2135 mètres d'altitude en face des pics himalayens enneigés. Elle est entourée de plantations de thé qui ont fait sa réputation"
-date: '2016-02-25'
-cover: https://farm2.staticflickr.com/1622/25998806116_57b4ed342b
+title: "Varanasi2  (Benares)"
+subtitle: "du 19 au 22 mars 2016"
+description: "L'une des sept villes saintes de l'hindouisme. Les pèlerins y viennent pour se purifier en se baignant dans le Gange et pour y incinérer leurs proches sur des bûchers "
+date: '2016-03-22'
+cover: https://farm2.staticflickr.com/1513/25882652521_4f9ac98350
 coordinates:
- - 88.262675,27.036007
-locations: darjeeling
+ - 82.973914,25.317645
+locations: varanasi
 zoom: 7
 category: inde
 tags:
   - etape
 ---
+
 
 {% include components/toc.html %}
 
