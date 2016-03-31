@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Kalimpong"
-subtitle: "du 26 au 28 mars 2016"
-description: "A une cinquantaine de kilomètres en contrebas de Darjeeling, Kalimpong avec son climat sub-tropical est réputée pour son orthiculture, ça tombe bien, c'est la période de floraison."
-date: '2016-02-28'
-cover: https://farm2.staticflickr.com/1642/26111449076_166e44103a
+subtitle: "du 19 au 22 mars 2016"
+description: "L'une des sept villes saintes de l'hindouisme. Les pèlerins y viennent pour se purifier en se baignant dans le Gange et pour y incinérer leurs proches sur des bûchers "
+date: '2016-03-22'
+cover: https://farm2.staticflickr.com/1513/25882652521_4f9ac98350
 coordinates:
- - 88.469453,27.059356
-locations: kalimpong
+ - 82.973914,25.317645
+locations: varanasi
 zoom: 7
 category: inde
 tags:
