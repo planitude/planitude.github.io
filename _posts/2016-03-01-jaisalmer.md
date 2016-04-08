@@ -48,7 +48,7 @@ Les images valant mieux que de longues descriptions (et ça m'arrange bien), vou
 Malgré tout ce que j'avais pu entendre ou lire sur cette ville, la population y est accueillante et les commerçants peu racoleurs.
 
 {% include image.html
-  src='https://farm2.staticflickr.com/1449/24787564583_8017e48983'
+  src='https://farm2.staticflickr.com/1449/24787564583_8a0df44192'
   alt='le Fort - Jaisalmer'
 %}
 
