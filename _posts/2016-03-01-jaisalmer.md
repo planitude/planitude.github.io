@@ -72,9 +72,11 @@ Le repas est préparé sur place, puis farniente car à cette heure le soleil co
 Rechameau et campement pour la nuit. Le lendemain visite d'un village (peu accueillant) et retour à la guest house à 15h.
 
 {% include image.html
-  src='https://farm2.staticflickr.com/1619/25118687750_49698a2445'
+  src='https://farm2.staticflickr.com/1619/25118687750_e1480c5669'
   alt='le désert - Jaisalmer'
 %}
+
+### Photos
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/72157662983831193" title="Inde - 2 - Jaisalmer"><img src="https://farm2.staticflickr.com/1663/25046765389_2b1939edcb_b.jpg" width="1024" height="768" alt="Inde - 2 - Jaisalmer"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
