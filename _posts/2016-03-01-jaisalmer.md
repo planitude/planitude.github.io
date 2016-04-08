@@ -36,7 +36,7 @@ Ce qui fait le charme de la ville se sont ses havelis, des maisons aux façades 
 
 {% include image.html
   src='https://farm2.staticflickr.com/1594/25414352195_84d739362a'
-  alt='Jaisalmer - Haveli'
+  alt='Haveli - Jaisalmer'
 %}
 
 #### Le fort
@@ -49,12 +49,12 @@ Malgré tout ce que j'avais pu entendre ou lire sur cette ville, la population y
 
 {% include image.html
   src='https://farm2.staticflickr.com/1449/24787564583_8017e48983'
-  alt='Jaisalmer - le Fort'
+  alt='le Fort - Jaisalmer'
 %}
 
 {% include image.html
-  src='https://farm2.staticflickr.com/1442/24787601693_dd2a3812ca'
-  alt='Jaisalmer - le Palais'
+  src='https://farm2.staticflickr.com/1442/24787601693_948bcf9794'
+  alt='le Palais - Jaisalmer'
 %}
 
 #### Le désert
@@ -73,7 +73,7 @@ Rechameau et campement pour la nuit. Le lendemain visite d'un village (peu accue
 
 {% include image.html
   src='https://farm2.staticflickr.com/1619/25118687750_49698a2445'
-  alt='Jaisalmer - le désert'
+  alt='le désert - Jaisalmer'
 %}
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/72157662983831193" title="Inde - 2 - Jaisalmer"><img src="https://farm2.staticflickr.com/1663/25046765389_2b1939edcb_b.jpg" width="1024" height="768" alt="Inde - 2 - Jaisalmer"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
