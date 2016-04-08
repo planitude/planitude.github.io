@@ -35,9 +35,10 @@ On y trouve également les fameuses vaches sacrées qui déambulent paisiblement
 Ce qui fait le charme de la ville se sont ses havelis, des maisons aux façades sculptées. Ce qui est d'autant plus beau pour moi, c'est de voir ces magnifiques ouvrages habités par des familles ordinaires.
 
 {% include image.html
-  src='https://farm2.staticflickr.com/1594/25414352195_84d739362a'
+  src='https://farm2.staticflickr.com/1594/25414352195_d51a7fccff'
   alt='Haveli - Jaisalmer'
 %}
+
 
 #### Le fort
 
