@@ -4,7 +4,7 @@ title: "Jaisalmer"
 subtitle: "du 27 février au 1er mars 2016"
 description: "Aux portes du désert du Thar séparant l'Inde du Pakistan, le fort de Jaisalmer avec les façades de ses maisons finement sculptées dans du gré blanc mérite bien son nom de perle du désert."
 date: '2016-03-01'
-cover: https://farm2.staticflickr.com/1670/25468070116_4930db1e1d
+cover: https://farm2.staticflickr.com/1584/26328257091_ad65c416e0
 category: inde
 coordinates:
  - 70.908344,26.915749
@@ -85,7 +85,7 @@ Rechameau et campement pour la nuit. Le lendemain visite d'un village (peu accue
 
 >**Transport**
 >
->- **Train Delhi - Jaisalmer (921km - 17h) ** *440 roupies*
+>- **Train Delhi - Jaisalmer (921km - 17h)** *440 roupies*
 >
 >**Hébergement**
 >
