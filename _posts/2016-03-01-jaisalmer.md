@@ -77,6 +77,13 @@ Rechameau et campement pour la nuit. Le lendemain visite d'un village (peu accue
   alt='le désert - Jaisalmer'
 %}
 
+### Vidéos
+
+{% include video.html
+  src='https://player.vimeo.com/video/162583004'
+  alt='Bon voyage'
+%}
+
 ### Photos
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/72157662983831193" title="Inde - 2 - Jaisalmer"><img src="https://farm2.staticflickr.com/1663/25046765389_2b1939edcb_b.jpg" width="1024" height="768" alt="Inde - 2 - Jaisalmer"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
