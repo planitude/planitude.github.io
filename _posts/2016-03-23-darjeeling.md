@@ -81,7 +81,6 @@ Le **Darjeeling Himalayan Railway** surnommé *toy train* (train miniature) de p
   alt='Toy train - Darjeeling'
 %}
 
-
 Une activité très prisée est le lever de soleil depuis Tiger Hill sur 3 monts enneigés culminant à plus de 8000 mètres. Le point de vue est distant d'une dizaine de kilomètres mais vu le nombre de touristes (locaux), ça m'enlève toute envie de m'y rendre. En plus tout dépend de la météo car la plupart du temps  en cette saison la vue est masquée par une brume. Cette brume retire pas mal le charme de cette station.
 En me rendant au lever du soleil à un point de vue, j'ai pu apercevoir au loin le mont Khangchendzonga  (8 598m, le plus haut en Inde), ce sera la seule fois que je le verrai.
 
@@ -95,7 +94,6 @@ Des treks de 2 à 5 jours s'organisent à la frontière avec le Népal dans le p
 {% include diapo.html
   src='<a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/72157666357823305" title="Inde - 12 - Darjeeling"><img src="https://farm2.staticflickr.com/1462/25419800154_1b7ef34a8c_b.jpg" width="1024" height="576" alt="Inde - 12 - Darjeeling"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>'
 %}
-
 
 ### Notes
 

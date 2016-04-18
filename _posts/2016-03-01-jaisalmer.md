@@ -72,6 +72,7 @@ Le repas est préparé sur place, puis farniente car à cette heure le soleil co
 
 Rechameau et campement pour la nuit. Le lendemain visite d'un village (peu accueillant) et retour à la guesthouse à 15h.
 
+
 {% include image.html
   src='https://farm2.staticflickr.com/1619/25118687750_e1480c5669'
   alt='le désert - Jaisalmer'

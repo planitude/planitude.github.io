@@ -41,7 +41,6 @@ Elles se font en longeant la route donc pas des plus intéressant. En bout de ro
   alt='Orchidées - Kalimpong'
 %}
 
-
 **Pineview Nursery**, ils font pousser des cactus. De belles serres bien entretenues avec des touffes de cactus fleuris.
 
 {% include image.html
@@ -61,7 +60,6 @@ Elles se font en longeant la route donc pas des plus intéressant. En bout de ro
 {% include diapo.html
   src='<a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/72157666579003525" title="Inde - 13 - Kalimpong"><img src="https://farm2.staticflickr.com/1637/26044868672_5486efb526_b.jpg" width="1024" height="576" alt="Inde - 13 - Kalimpong"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>'
 %}
-
 
 ### Notes
 

@@ -23,7 +23,6 @@ Les Sundarbans sont un réseau de canaux et de mangrove qui s'étendent sur plus
   alt='Mangove - Sundarban'
 %}
 
-
 ### Formule 3 jours / 2 nuits
 
 L'office du tourisme propose des croisières sur des bateaux d'une quarantaine de passagers. Croisière pure, alors qu'avec une agence, j'opte pour une formule plus "backpacker" : [Backpackers Jungle Tour](http://www.tourdesundarbans.com)
@@ -58,7 +57,6 @@ Embarquement sur un petite barque pour rentrer dans les petits canaux et voir su
   src='https://farm2.staticflickr.com/1478/25589390993_f3cb809a07'
   alt='Mangove - Sundarban'
 %}
-
 
 On part ensuite se balader autour du village. Il n'y a ici comme sur l'ensemble des îles ni eau courante, ni électricité. Ils ont des panneaux solaires qui leur suffisent à éclairer. Pour récolter l'eau, ils creusent de grands trous de 7m de profondeur. Ils s'en servent aussi pour se baigner et se laver.
 
@@ -104,5 +102,5 @@ Demain l'avion pour Paris.
 
 >
 >**Divers**
->
+>g
 >- **Formule 3 jours / 2 nuits** *4 500 roupies (60€)*
