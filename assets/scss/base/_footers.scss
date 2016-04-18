@@ -94,6 +94,9 @@
   .vimeo {
     @include icon($icon-vimeo, 'after');
   }
+  .youtube {
+    @include icon($icon-youtube, 'after');
+  }
   .flickr {
     @include icon($icon-flickr2, 'after');
   }

@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "title": "Agra",
+            "description": "<div class=\"marker-title\">Agra</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1645/25511653280_e41e790ebe_q.jpg\" alt=\"Agra\"></div><div class=\"marker-subtitle\">Avec toutes les photos que j'avais vu auparavant je m'attendais à être déçu et bien pas du tout. Le Taj Mahal est encore plus majestueux que sur les photos</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/delhi.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 78.96288,20.593684 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "title": "2",
+            "marker-symbol": "monument",
+            "description": "<div class=\"marker-title\">Delhi</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1467/24785213133_d22fb3964c_q.jpg\" alt=\"Delhi\"></div><div class=\"marker-subtitle\">du 24 au 26 février 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/delhi.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 77.209021,28.613939 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Jaisalmer</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1584/26328257091_bbd2a2927b_q.jpg\" alt=\"Jaisalmer\"></div><div class=\"marker-subtitle\">du 27 février au 1er mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/jaisalmer.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 70.908344,26.915749 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Jodhpur</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1600/24857225254_a75104e40a_q.jpg\" alt=\"Jodhpur\"></div><div class=\"marker-subtitle\">du 1 au 3 mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/jodhpur.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 73.024309,26.238947 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Udaipur</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1616/25799175424_272ef04198_q.jpg\" alt=\"Udaipur\"></div><div class=\"marker-subtitle\">du 3 au 4 mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/udaipur.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 73.712479,24.585445 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Jahazpur</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1481/26405022665_bb4e8bfafb_q.jpg\" alt=\"Jahazpur\"></div><div class=\"marker-subtitle\">du 5 au 6 mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/jahazpur.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 75.277072,25.624435 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Bundi</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1464/26312963942_889b6fec8e_q.jpg\" alt=\"Bundi\"></div><div class=\"marker-subtitle\">du 6 au 9 mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/bundi.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 75.277072,25.624435 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Pushkar</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1694/26138775000_54fab931c9_q.jpg\" alt=\"Pushkar\"></div><div class=\"marker-subtitle\">du 10 au 12 avril 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/pushkar.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 74.551086,26.489749 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Jaïpur</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1542/25818437063_7d532796af_q.jpg\" alt=\"Jaïpur\"></div><div class=\"marker-subtitle\">du 12 au 14 mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/jaipur.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 75.787271,26.912434 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Khajuraho</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1591/25835817721_cc6956bc7f_q.jpg\" alt=\"Khajuraho\"></div><div class=\"marker-subtitle\">du 15 au 18 mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/khajuraho.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 79.919855,24.831845 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Varanasi  (Benares)</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1513/25882652521_4f9ac98350_q.jpg\" alt=\"Varanasi  (Benares)\"></div><div class=\"marker-subtitle\">du 19 au 22 mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/varanasi.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 82.973914,25.317645 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Darjeeling</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1622/25998806116_57b4ed342b_q.jpg\" alt=\"Darjeeling\"></div><div class=\"marker-subtitle\">du 23 au 25 mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/darjeeling.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 88.262675,27.036007 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Kalimpong</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1642/26111449076_166e44103a_q.jpg\" alt=\"Kalimpong\"></div><div class=\"marker-subtitle\">du 26 au 28 mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/kalimpong.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 88.469453,27.059356 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Kolkata  (Calcutta)</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1590/26119252762_3f98f9aa3a_q.jpg\" alt=\"Kolkata  (Calcutta)\"></div><div class=\"marker-subtitle\">du 29 au 31 mars 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/calcutta.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 88.363895,22.572646 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "description": "<div class=\"marker-title\">Sundarban</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/1572/25589798483_22ba45a437_q.jpg\" alt=\"Sundarban\"></div><div class=\"marker-subtitle\">du 31 mars au 2 avril 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2016/sundarbans.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 88.879088,22.157075 ]
+          }
+        }
+  ]
+}

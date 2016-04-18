@@ -53,7 +53,7 @@ javascript:
     - "assets/vendor/waypoints/lib/shortcuts/infinite.js"
     #- "assets/vendor/waypoints/lib/waypoints.debug.js"
 
-    #- "assets/vendor/featherlight/src/featherlight.js"
+    - "assets/vendor/featherlight/src/featherlight.js"
 
     - "assets/vendor/history.js/scripts/bundled/html4+html5/jquery.history.js"
 

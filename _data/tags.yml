@@ -57,3 +57,7 @@ transport:
 etape:
   slug: etape
   name: Etape
+
+nourriture:
+  slug: nourriture
+  name: Nourriture

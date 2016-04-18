@@ -18,7 +18,8 @@ layout: default
           <a href="/photos/{{ item.album_url }}">
             <img src="{{ cover_path }}" class="lazyload img-responsive" alt="{{ item.album_title }}">
             <div class="album-caption">
-                {{ item.album_title }}
+                {{ item.album_title }}<br>
+                ou <a href="https://www.flickr.com/photos/planitude/albums/{{ item.album_id }}">sur Flickr</a>
             </div>
           </a>
         </div>

@@ -1,0 +1,25 @@
+---
+layout: null
+---
+
+{
+  "type": "FeatureCollection",
+
+  "features": [
+    {% for post in site.categories.inde reversed %}
+      {% if post.coordinates %}
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "{{ post.title }}",
+              "description": "<div class=\"marker-title\"><a href=\"{{ site.baseurl }}{{ post.url }}\">{{ post.title }}</a></div><div class=\"marker-cover\"><img src=\"{{ post.cover }}_q.jpg\" alt=\"{{ post.title }}\"></div><div class=\"marker-subtitle\">{{ post.subtitle }}</div><div class=\"marker-more\"><a href=\"{{ site.baseurl }}{{ post.url }}\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ {{ post.coordinates }} ]
+          }
+        }{% if forloop.last %}{% else %},{% endif %}
+      {% endif %}
+    {% endfor %}
+  ]
+}

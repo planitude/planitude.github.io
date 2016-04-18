@@ -30,7 +30,7 @@ var planitude = (function ($) {
 		$(document).delegate('a[href^="/"]:not([rel~="external"]),a[href^="'+siteUrl+'"]:not([rel~="external"])', "click", function(e) {
 			e.preventDefault();
 			//$(document).scrollTop( 0 );
-			console.log('ajax load');
+//console.log('ajax load');
 			History.pushState({}, "", this.pathname);
 		});
 
@@ -42,7 +42,7 @@ var planitude = (function ($) {
 				$('#content').html($(data).find('#site-body'));
 				//$('#site-header .top-bar').removeClass('navbar-shrink');
 				Waypoint.destroyAll();
-			console.log('---- contenu chargé');
+//console.log('---- contenu chargé');
 				//_gaq.push(['_trackPageview', State.url]);
 				window.onload = initAjaxify();
 			});
@@ -69,10 +69,13 @@ var planitude = (function ($) {
 			//event.preventDefault();
 			// var popup = new Foundation.Reveal($('#mapModal'));
 			// popup.open();
-console.log('début map');
+
 			//$.featherlight($('#mapModal'));
 			//$('#mapModal').addClass('is-open');
 			if($('#map').is(':empty')) {
+
+//console.log('début map');
+
 				var coordonates = $(this).data('coordonates').split(',');
 				var lng = parseFloat(coordonates[0]);
 				var lat = parseFloat(coordonates[1]);
@@ -91,50 +94,110 @@ console.log('début map');
 					mapboxgl.accessToken = token;
 					var map = new mapboxgl.Map({
 							container: 'map', // container id
-							style: 'mapbox://styles/mapbox/streets-v8', //stylesheet location
+							//style: 'mapbox://styles/mapbox/streets-v8', //stylesheet location
+							style: 'mapbox://styles/planitude/cikpa3uzh00m6b5lwr5rr83sr',
+
+							//style: 'mapbox://styles/planitude/cin52di7a00p4c9mayqulxivm',
 							//style: 'mapbox://styles/planitude/cikpa3uzh00m6b5lwr5rr83sr',
+
 							center: [lng, lat], // starting position
 							zoom: zoomc, // starting zoom
+
 					});
-					var markers = {
-					    "type": "FeatureCollection",
-					    "features": [{
-					        "type": "Feature",
-					        "properties": {
-					            "description": "<div class=\"marker-title\">"+location+"</div><p><a href=\"http://www.mtpleasantdc.com/makeitmtpleasant\" target=\"_blank\" title=\"Opens in a new window\">Make it Mount Pleasant</a> is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
-					            "marker-symbol": "marker"
-					        },
-					        "geometry": {
-					            "type": "Point",
-											"coordinates": [lng, lat]
+					// var markers = {
+					//     "type": "FeatureCollection",
+					//     "features": [{
+					//         "type": "Feature",
+					//         "properties": {
+					//             "description": "<div class=\"marker-title\">"+location+"</div><p><a href=\"http://www.mtpleasantdc.com/makeitmtpleasant\" target=\"_blank\" title=\"Opens in a new window\">Make it Mount Pleasant</a> is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
+					//             "marker-symbol": "marker"
+					//         },
+					//         "geometry": {
+					//             "type": "Point",
+					// 						"coordinates": [lng, lat]
+					//         }
+					//     }]
+					// };
+
+// 					map.on('style.load', function() {
+// console.log(markers);
+// 						map.addSource("markers", {
+// 				        "type": "geojson",
+// 				        "data": markers
+// 				    });
+//
+// 						map.addLayer({
+// 				        "id": "markers",
+// 				        "type": "symbol",
+// 				        "source": "markers",
+// 				        "layout": {
+// 				            "icon-image": "{marker-symbol}-15",
+// 				            "icon-allow-overlap": true
+// 				        }
+// 				    });
+// 						map.addControl(new mapboxgl.Navigation());
+// 					});
+
+
+
+					map.on('load', function(){
+
+					    // Add a new source from our GeoJSON data and set the
+					    map.addSource("markers", {
+					        type: "geojson",
+									data: "/geoloc/inde.geojson",
+					    });
+
+					    map.addLayer({
+					        "id": "etapes",
+					        "type": "symbol",
+					        "source": "markers",
+					        "layout": {
+					            //"icon-image": "marker-15"
+//"icon-image": "flag"
+											// "marker-color": "#3bb2d0",
+					            // "icon-image": "1",
+											// "marker-size": "large"
+											//"icon-image": "{marker-symbol}-15",
+											//"icon-allow-overlap": true
+
+											//"icon-image": "{marker-symbol}-15",
+										  //"marker-color": "#3bb2d0",
+											"icon-image": "dot"
+											//"marker-size": "large"
+					            //"text-field": "{title}",
+					            //"text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+					            //"text-offset": [0, 0.6],
+					            //"text-anchor": "top"
 					        }
-					    }]
-					};
+					    });
 
-					map.on('style.load', function() {
-//console.log(markers);
-						map.addSource("markers", {
-				        "type": "geojson",
-				        "data": markers
-				    });
+							map.on('click', function (e) {
+							    var features = map.queryRenderedFeatures(e.point, { layers: ['etapes'] });
 
-						map.addLayer({
-				        "id": "markers",
-				        "type": "symbol",
-				        "source": "markers",
-				        "layout": {
-				            "icon-image": "{marker-symbol}-15",
-				            "icon-allow-overlap": true
-				        }
-				    });
-						map.addControl(new mapboxgl.Navigation());
+							    if (!features.length) {
+							        return;
+							    }
+
+							    var feature = features[0];
+
+							    // Populate the popup and set its coordinates
+							    // based on the feature found.
+							    var popup = new mapboxgl.Popup()
+							        .setLngLat(feature.geometry.coordinates)
+							        .setHTML(feature.properties.description)
+							        .addTo(map);
+							});
+
 					});
 
 				}
 			}
-			// var popup = new Foundation.Reveal($('#mapModal'));
-			// popup.open();
-			$.featherlight($('#mapModal'));
+
+			$('.map-dyn').removeClass('invisible');
+			$('.map-wrapper').addClass('invisible');
+			map.resize();
+
 		});
 	},
 
@@ -465,10 +528,10 @@ console.log('début map');
 	},
 
 	initAjaxify = function () {
-$(document).scrollTop( 0 );
-Waypoint.destroyAll();
-console.log('Waypoint destroy');
-$('body').removeClass('navbar-shrink');
+		$(document).scrollTop( 0 );
+		Waypoint.destroyAll();
+		console.log('Waypoint destroy');
+		$('body').removeClass('navbar-shrink');
 		alterDom();
 		fluidbox();
 		gallery();
@@ -490,7 +553,7 @@ $('body').removeClass('navbar-shrink');
 		toc();
 		contactPost();
 		tocPosition();
-		//displayMap();
+		displayMap();
 		responiveMenu();
 	};
 

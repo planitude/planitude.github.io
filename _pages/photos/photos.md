@@ -3,6 +3,17 @@ permalink: /photos/
 layout: albums
 title: Photos
 albums:
+
+- album_id: 72157667286795895
+  album_title: Inde - Mars 2016
+  album_creation: 1460972503
+  album_nb: 151
+  album_cover: 25185724593
+  album_secret: 0669cb822c
+  album_server: 1621
+  album_farm: 2
+  album_url: inde
+
 - album_id: 72157661955145344
   album_title: Grèce - Avril 2015
   album_creation: 1454580657
