@@ -102,5 +102,5 @@ Demain l'avion pour Paris.
 
 >
 >**Divers**
->g
+>
 >- **Formule 3 jours / 2 nuits** *4 500 roupies (60€)*
