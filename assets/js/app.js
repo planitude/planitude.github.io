@@ -17,7 +17,7 @@ var planitude = (function ($) {
 			$('#responsive-menu').toggleClass('is-open');
 			event.preventDefault();
 		});
-		$(document).on('click', '#responsive-menu a', function(event) {
+		$(document).on('click', '#responsive-menu a:not([class~="dropdown"])', function(event) {
 			$('#responsive-menu a').removeClass('active');
 			$(this).addClass('active');
 			$('#responsive-menu').removeClass('is-open');
@@ -29,6 +29,7 @@ var planitude = (function ($) {
 	ajaxify = function () {
 		$(document).delegate('a[href^="/"]:not([rel~="external"]),a[href^="'+siteUrl+'"]:not([rel~="external"])', "click", function(e) {
 			e.preventDefault();
+			$('.has-dropdown .dropdown-pane').removeClass('open');
 			//$(document).scrollTop( 0 );
 //console.log('ajax load');
 			History.pushState({}, "", this.pathname);
@@ -341,7 +342,7 @@ var planitude = (function ($) {
 					//console.log('id: '+$(this.element).attr('id')+' / text : '+$(this.element).text());
 					//var exclu = $(this.element).attr('id')
 					//if (exclu != 'comments') {
-						console.log('breadcrumb : '+breadcrumb);
+// console.log('breadcrumb : '+breadcrumb);
 						$('.toc-title span').append(' > '+breadcrumb);
 						$('.toc-list a').removeClass('active');
 						activeBreadcrumb.addClass('active');
@@ -411,6 +412,10 @@ var planitude = (function ($) {
 		$(document).on('click', '.show-comments', function(event) {
 			loadDisqus();
 		});
+		$(document).on('click', '.has-dropdown .dropdown', function(event) {
+			$('.has-dropdown .dropdown-pane').toggleClass('open');
+			event.preventDefault();
+		});
 	},
 
 
@@ -453,7 +458,7 @@ var planitude = (function ($) {
 		$(document).on('click', 'a.page-scroll, #table-of-contents .toc-list a', function(event) {
 			var $anchor = $(this);
 			var top = 150;
-			console.log('anchor : '+$anchor.attr('href'));
+			//console.log('anchor : '+$anchor.attr('href'));
 			if ( $anchor.attr('href') === '#intro') {
 				top = 200;
 			}
@@ -499,10 +504,21 @@ var planitude = (function ($) {
 
 		// Open external links in new window
 		var localHost = "http://" + window.location.host;
-		var flickrHost = "https://farm2.staticflickr.com";
+		var flickrHost1 = "https://farm2.staticflickr.com";
+		var flickrHost2 = "https://c8.staticflickr.com";
+		var flickrHost = ".staticflickr.com";
+
 		//$('a:not([href*=javascript]):not([href^=#])')
 		//:not([rel!='']) , [rel!='']
-		$('a[href]:not([href^="'+siteUrl+'"], [href^="'+flickrHost+'"], [href^="#"], [href^="/"])').attr('rel', 'external').attr( 'target', '_blank' );
+// = is exactly equal
+// != is not equal
+// ^= is starts with
+// $= is ends with
+// *= is contains
+// ~= is contains word
+// |= is starts with prefix (i.e., |= "prefix" matches "prefix-...")
+
+		$('a[href]:not([href^="'+siteUrl+'"], [href*="'+flickrHost+'"], [href^="#"], [href^="/"])').attr('rel', 'external').attr( 'target', '_blank' );
 		$('a[rel~="external"]').attr('target', '_blank');
 
 		$('#content > main').addClass('page-loaded');

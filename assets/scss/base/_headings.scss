@@ -78,7 +78,7 @@
       li {
         padding: 0 1em;
       }
-      a {
+      .menu a {
         transition: color 0.3s;
         text-shadow: none;
         padding: 10px;
@@ -117,6 +117,23 @@
             &:after {
             	opacity: 1;
             	transform: translateY(0px);
+            }
+          }
+        }
+      }
+      .dropdown-pane {
+        .label {
+          color: $white;
+          text-transform: uppercase;
+          font-weight: 600;
+        }
+        ul {
+          list-style-type: none;
+          margin: 1em 0;
+          li {
+            a {
+              color: $primary-color;
+              padding: 1px;
             }
           }
         }
@@ -211,11 +228,23 @@
 
 
 #site-header .dropdown-pane {
+  //visibility: hidden;
   display: none;
   width: 100%;
   left: 0% !important;
   right: 0% !important;
+  background-color: white;
+  top: 85px;
+  border-bottom: 3px solid #fec006;
+  padding: 20px;
+  @include breakpoint(medium) {
+    position: absolute;
+  }
   &.open {
-    visibility: visible;
+    display: block;
+    //visibility: visible;
+  }
+  .navbar-shrink & {
+    top: 65px;
   }
 }

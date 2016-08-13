@@ -165,6 +165,50 @@
               "type": "Point",
               "coordinates": [ 88.879088,22.157075 ]
           }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Vendée",
+              "description": "<div class=\"marker-title\">Vendée</div><div class=\"marker-cover\"><img src=\"https://c8.staticflickr.com/8/7325/28235722815_4703b5a081_q.jpg\" alt=\"Vendée\"></div><div class=\"marker-subtitle\">du 10 au 27 mai 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/france/2016/vendee.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ -1.250419,46.893026 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Ardèche",
+              "description": "<div class=\"marker-title\">Ardèche</div><div class=\"marker-cover\"><img src=\"https://c4.staticflickr.com/8/7482/28172689411_8ebba67b95_q.jpg\" alt=\"Ardèche\"></div><div class=\"marker-subtitle\">du 6 au 17 juin 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/france/2016/ardeche.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 4.507253,44.918645 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Côtes d'Armor",
+              "description": "<div class=\"marker-title\">Côtes d'Armor</div><div class=\"marker-cover\"><img src=\"https://c1.staticflickr.com/9/8773/28897428896_7b0ea372b9_q.jpg\" alt=\"Côtes d'Armor\"></div><div class=\"marker-subtitle\">du 27 juin au 8 juillet 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/france/2016/cotesarmor.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ -3.107395,48.704230 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Morbihan",
+              "description": "<div class=\"marker-title\">Morbihan</div><div class=\"marker-cover\"><img src=\"https://c7.staticflickr.com/9/8443/28647859070_2c84cfa7e0_q.jpg\" alt=\"Morbihan\"></div><div class=\"marker-subtitle\">du 25 au 29 juillet 2016</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/france/2016/morbihan.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ -3.256163,47.836001 ]
+          }
         }
   ]
 }

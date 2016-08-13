@@ -61,3 +61,7 @@ etape:
 nourriture:
   slug: nourriture
   name: Nourriture
+
+wwoof:
+  slug: wwoof
+  name: Wwoof
