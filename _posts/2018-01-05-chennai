@@ -1,0 +1,75 @@
+---
+layout: post
+title: "Template"
+subtitle: "du 4 au 6 janvier 2018"
+description: "Modèle de post"
+date: '2018-01-05'
+category: inde
+cover: https://farm2.staticflickr.com/4686/39301523132_9fc0070306
+coordinates:
+ - 80.27071840000008,13.0826802
+locations: Chennai
+tags:
+  - test
+  - intro
+---
+
+{% include components/toc.html %}
+
+### Titre 3
+
+Eee
+
+#### Titre 4
+
+**texte gras**
+
+Paragraphe
+
+Liste :
+
+- item 1
+- item 2
+  - item 2.1
+  - item 2.2
+- item 3
+
+(lien vers une autre page du site)[/photos]
+
+#### Image
+
+{% include image.html
+  src='https://farm2.staticflickr.com/4693/39301524332_6c4f0efd54'
+  alt='Test2 - Surzur'
+%}
+
+#### Vidéos
+
+{% include video.html
+  src='https://player.vimeo.com/video/154499514'
+  alt='Voyage de noces chinois'
+%}
+
+#### Attachments
+
+{% include file.html
+  src='guide_balisage_rivieres.pdf'
+  title='Guide de balisage des rivières 2'
+  filetype='pdf'
+%}
+
+kjh
+
+
+
+>**Transport**
+>
+>- **Ferry Pirée - Santorin** *Santorin : 38€ (8h)*
+>
+>**Hébergement**
+>
+>- **Auberge Caveland Santorin** *17€*
+>
+>**Divers**
+>
+>- **Location scooter** *15€/jour*
