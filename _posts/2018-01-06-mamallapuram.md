@@ -4,7 +4,7 @@ title: "Mamallapuram"
 subtitle: "du 4 au 6 janvier 2018"
 description: "Petite station touristique située à une trentaine kilomètres de Chennai, la ville est un bon point de chute pour s'acclimater tranquillement à l'Inde"
 date: '2018-01-06'
-cover: https://farm2.staticflickr.com/4639/38683103565_dde7e5d0c5
+cover: https://farm2.staticflickr.com/4639/38683103565_93dca15540
 coordinates:
  - 80.19271090000007,12.626927
 locations: mamallapuram
@@ -15,7 +15,6 @@ tags:
 ---
 
 {% include components/toc.html %}
-
 
 Après une nuit d'avion et une correspondance à Delhi, nous arrivons à 15h30 à Chennai (Madras). Comme la ville compte 7,7 millions d'habitants, je me suis dit que ce n'était pas la meilleure introduction à l'Inde. Plutôt que de s'aventurer vers le centre ville, nous prenons le tout nouveau métro jusqu'à la gare de bus et prenons un bus pour Mamallapuram.
 
@@ -33,7 +32,7 @@ Si la petite ville vaut le détour, c'est probablement pour ses temples. Les 2 p
 
 
 {% include image.html
-  src='https://farm2.staticflickr.com/4732/25709034988_ac4fea15c0'
+  src='https://farm2.staticflickr.com/4732/25709034988_1957df7113'
   alt='Arjuna s Penance'
 %}
 
@@ -41,9 +40,10 @@ Au milieu de cet ensemble, il y a un énorme bloc de pierre rond qui est posé c
 
 
 {% include image.html
-  src='https://farm2.staticflickr.com/1656/25606825204_023107ab0d'
+  src='https://farm2.staticflickr.com/4642/38683113845_dd3979f3d8'
   alt='Krishna Butter Ball'
 %}
+
 
 ### Notes
 
