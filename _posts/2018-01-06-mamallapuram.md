@@ -45,12 +45,6 @@ Au milieu de cet ensemble, il y a un énorme bloc de pierre rond qui est posé c
   alt='Krishna Butter Ball'
 %}
 
-### Photos
-
-{% include diapo.html
-  src='<a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/XXX" title="Inde - 14 - Calcutta"><img src="https://farm2.staticflickr.com/1656/25606825204_023107ab0d_b.jpg" width="1024" height="768" alt="Inde - 14 - Calcutta"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>'
-%}
-
 ### Notes
 
 >**Transport**
