@@ -34,7 +34,7 @@ Si la petite ville vaut le détour, c'est probablement pour ses temples. Les 2 p
 
 {% include image.html
   src='https://farm2.staticflickr.com/4732/25709034988_ac4fea15c0'
-  alt='Arjuna's Penance'
+  alt='Arjuna s Penance'
 %}
 
 Au milieu de cet ensemble, il y a un énorme bloc de pierre rond qui est posé comme prêt à rouler mais qui reste en équilibre. La légende dit que c'est une boule de beurre laisse tombée par Krishna.
