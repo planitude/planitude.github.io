@@ -4,9 +4,9 @@ title: "Pondichery"
 subtitle: "du 7 au 9 janvier 2018"
 description: "Cette ancienne colonie française possède une atmosphère particuière comparées aux autres villes indiennes"
 date: '2018-01-07'
-cover: https://farm2.staticflickr.com/4671/38736241735_a167620c9b
+cover: https://farm2.staticflickr.com/4671/38736241735_ab8b78674b
 coordinates:
- - 48.862725,2.287592000000018
+ - 2.287592000000018,48.862725
 locations: pondichery
 zoom: 7
 category: inde
