@@ -6,7 +6,7 @@ description: "Cette ancienne colonie française possède une atmosphère particu
 date: '2018-01-07'
 cover: https://farm2.staticflickr.com/4671/38736241735_ab8b78674b
 coordinates:
- - 11.9138598,79.81447219999995
+ - 79.8135281,11.9362953
 locations: pondichery
 zoom: 7
 category: inde
