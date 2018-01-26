@@ -51,7 +51,7 @@ Elles se font en longeant la route donc pas des plus intéressant. En bout de ro
 ### Vidéos
 
 {% include video.html
-  src='https://www.youtube.com/embed/SQs7OTpHLPY'
+  src='https://www.youtube.com/embed/SQs7OTpHLPY?rel=0&amp;showinfo=0'
   alt='Michèle des Beatles'
 %}
 
