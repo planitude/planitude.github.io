@@ -72,7 +72,7 @@ Il a été créé par les français pour expérimenter différentes espèces d'a
 ### Vidéos
 
 {% include video.html
-  src='https://www.youtube.com/embed/RWg_MKNT5pA'
+  src='https://www.youtube.com/embed/RWg_MKNT5pA?rel=0&amp;showinfo=0'
   alt='Autour du bazar'
 %}
 
