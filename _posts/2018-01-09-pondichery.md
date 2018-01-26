@@ -79,7 +79,7 @@ Il a été créé par les français pour expérimenter différentes espèces d'a
 ### Photos
 
 {% include diapo.html
-  src='<a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/72157692118104555" title="Inde du Sud - 02 - Pondichery"><img src="https://farm5.staticflickr.com/4671/38736241735_ab8b78674b_z.jpg" width="640" height="360" alt="Inde du Sud - 02 - Pondichery"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>'
+  src='<a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/72157692118104555" title="Inde du Sud - 02 - Pondichery"><img src="https://farm5.staticflickr.com/4671/38736241735_ab8b78674b_b.jpg" width="1024" height="768" alt="Inde du Sud - 02 - Pondichery"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>'
 %}
 
 ### Notes
