@@ -44,6 +44,11 @@ Au milieu de cet ensemble, il y a un énorme bloc de pierre rond qui est posé c
   alt='Krishna Butter Ball'
 %}
 
+### Photos
+
+{% include diapo.html
+  src='<a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/72157691928067734" title="Inde du Sud - 01 - Mamallapuram"><img src="https://farm5.staticflickr.com/4639/38683103565_93dca15540_z.jpg" width="640" height="293" alt="Inde du Sud - 01 - Mamallapuram"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>'
+%}
 
 ### Notes
 
