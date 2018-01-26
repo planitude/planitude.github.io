@@ -69,6 +69,12 @@ On commence à voir pas mal de temples dravidiens avec leur gopuram (tour-portai
 
 Il a été créé par les français pour expérimenter différentes espèces d'arbres pouvant être introduits en Inde. Hélas ne présente pas trop d'intérêt, quelques arbres sont étiquetés, la serre fermée, des poubelles renversées.
 
+### Vidéos
+
+{% include video.html
+  src='https://www.youtube.com/embed/RWg_MKNT5pA'
+  alt='Autour du bazar'
+%}
 
 ### Notes
 
