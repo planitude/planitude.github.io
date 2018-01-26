@@ -81,12 +81,12 @@ Rechameau et campement pour la nuit. Le lendemain visite d'un village (peu accue
 ### Vidéos
 
 {% include video.html
-  src='https://www.youtube.com/embed/0ZgnNDF4ysY'
+  src='https://www.youtube.com/embed/0ZgnNDF4ysY?rel=0&amp;showinfo=0'
   alt='Bon voyage'
 %}
 
 {% include video.html
-  src='https://www.youtube.com/embed/7CXWAhjXCuU'
+  src='https://www.youtube.com/embed/7CXWAhjXCuU?rel=0&amp;showinfo=0'
   alt='Arrivée en train à Jaisalmer'
 %}
 
