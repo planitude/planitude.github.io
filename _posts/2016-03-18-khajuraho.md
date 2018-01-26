@@ -60,7 +60,7 @@ Ces temples de style indo-aryen sont recouverts de frises superposées, sculpté
 ### Vidéos
 
 {% include video.html
-  src='https://www.youtube.com/embed/6fydqrBqHYQ'
+  src='https://www.youtube.com/embed/6fydqrBqHYQ?rel=0&amp;showinfo=0'
   alt='Arrivée en train à Khajuraho'
 %}
 
