@@ -95,7 +95,7 @@ Demain l'avion pour Paris.
 ### Photos
 
 {% include diapo.html
-  src='<a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/72157666617183446" title="Inde - 15 - Sundarbands"><img src="https://farm2.staticflickr.com/1543/25919166610_9fb0786a94_b.jpg" width="1024" height="768" alt="Inde - 15 - Sundarbands"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>'
+  src='<a data-flickr-embed="true"  href="https://www.flickr.com/photos/planitude/albums/72157691013506241" title="Inde du Sud - 08 - Kochi"><img src="https://farm5.staticflickr.com/4608/39877000532_f87e3cdcd9_b.jpg" width="1024" height="768" alt="Inde du Sud - 08 - Kochi"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>'
 %}
 
 ### Notes
