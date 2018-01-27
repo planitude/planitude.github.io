@@ -209,6 +209,94 @@
               "type": "Point",
               "coordinates": [ -3.256163,47.836001 ]
           }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Mamallapuram",
+              "description": "<div class=\"marker-title\">Mamallapuram</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/4639/38683103565_93dca15540_q.jpg\" alt=\"Mamallapuram\"></div><div class=\"marker-subtitle\">du 4 au 6 janvier 2018</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2018/mamallapuram.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 80.19271090000007,12.626927 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Pondichery",
+              "description": "<div class=\"marker-title\">Pondichery</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/4671/38736241735_ab8b78674b_q.jpg\" alt=\"Pondichery\"></div><div class=\"marker-subtitle\">du 7 au 9 janvier 2018</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2018/pondichery.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 79.8135281,11.9362953 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Madurai",
+              "description": "<div class=\"marker-title\">Madurai</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/4652/38949123684_c14ecea556_q.jpg\" alt=\"Madurai\"></div><div class=\"marker-subtitle\">du 9 au 11 janvier 2018</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2018/madurai.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 78.1228237,9.9176458 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Munnar",
+              "description": "<div class=\"marker-title\">Munnar</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/4621/38973881994_3f2a440a5b_q.jpg\" alt=\"Munnar\"></div><div class=\"marker-subtitle\">du 12 au 13 janvier 2018</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2018/munnar.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 77.0641779,10.0806496 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Kumily",
+              "description": "<div class=\"marker-title\">Kumily</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/4612/38829748555_d432d34001_q.jpg\" alt=\"Kumily\"></div><div class=\"marker-subtitle\">du 14 au 15 janvier 2018</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2018/kumily.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 77.1641358,9.603177 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Alappuzha",
+              "description": "<div class=\"marker-title\">Alappuzha</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/4649/39745386791_49d1a0235d_q.jpg\" alt=\"Alappuzha\"></div><div class=\"marker-subtitle\">du 16 au 17 janvier 2018</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2018/alleppey.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 76.3421059,9.5010367 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Kollam",
+              "description": "<div class=\"marker-title\">Kollam</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/4602/25916132518_bd52e38814_q.jpg\" alt=\"Kollam\"></div><div class=\"marker-subtitle\">le 18 janvier 2018</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2018/kollam.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 76.5950733,8.9040623 ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Kochi",
+              "description": "<div class=\"marker-title\">Kochi</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/4608/39199098584_74e987a75f_q.jpg\" alt=\"Kochi\"></div><div class=\"marker-subtitle\">du 19 au 21 janvier 2018</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2018/kochi.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 76.3027456,9.9434496 ]
+          }
         }
   ]
 }
