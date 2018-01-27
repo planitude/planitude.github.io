@@ -58,4 +58,4 @@ Au milieu de cet ensemble, il y a un énorme bloc de pierre rond qui est posé c
 >
 >**Hébergement**
 >
->- **Hôtel Tina Blue View** *800 roupies (10,5€)*
+>- **Hôtel Tina Blue View** *800 roupies (10,5€ / *)*
