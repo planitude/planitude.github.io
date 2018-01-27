@@ -90,8 +90,8 @@ Il a été créé par les français pour expérimenter différentes espèces d'a
 >
 >**Hébergement**
 >
->- **Pension La Maison de Radha** *1600 roupies*
+>- **Pension La Maison de Radha** *1600 roupies (20,2€)*
 >
 >**Divers**
 >
->- **Jardin botanique** *50 roupies*
+>- **Jardin botanique** *50 roupies (0,6€)*
