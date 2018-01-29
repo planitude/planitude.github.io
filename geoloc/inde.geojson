@@ -297,6 +297,17 @@
               "type": "Point",
               "coordinates": [ 76.3027456,9.9434496 ]
           }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "title": "Mysore",
+              "description": "<div class=\"marker-title\">Mysore</div><div class=\"marker-cover\"><img src=\"https://farm2.staticflickr.com/4629/28129382309_31fdfd259b_q.jpg\" alt=\"Mysore\"></div><div class=\"marker-subtitle\">du 21 au 23 janvier 2018</div><div class=\"marker-more\"><a href=\"http://planitude.github.io/inde/2018/mysore.html\">Lire article</a></div>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [ 76.6356898,12.3106457 ]
+          }
         }
   ]
 }
