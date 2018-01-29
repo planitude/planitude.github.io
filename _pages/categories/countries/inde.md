@@ -1,9 +1,9 @@
 ---
 permalink: /inde/
 layout: category
-title:  "L'Inde du Nord"
+title:  "Inde"
 type: inde
 cover: https://farm2.staticflickr.com/1645/25511653280_e41e790ebe
 ---
 
-<iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/planitude.pn53oo5a/attribution,zoompan,zoomwheel,geocoder.html?access_token=pk.eyJ1IjoicGxhbml0dWRlIiwiYSI6ImNpa21hcDJnbDAwN2t3OW00NHExNmJpZmsifQ.h19ybld8IuZGzPcx1Q84Yw'></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1YNwTJck6ZeSZDe2JtJW6vHoka3ePrJKN" width="100%" height="480"></iframe>
