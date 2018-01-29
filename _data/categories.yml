@@ -10,3 +10,6 @@ inde:
 france:
   slug: france
   name: France
+maroc:
+  slug: maroc
+  name: Maroc
