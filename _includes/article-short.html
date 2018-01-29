@@ -1,7 +1,7 @@
 
 
 <article itemscope itemtype="http://schema.org/BlogPosting" class="infinite-item">
-	<h3><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span></h3>
+	<h3 id="{{ post.title }}"><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span></h3>
 	<h4>{{ post.subtitle }}</h4>
 		<div class="article-picture">
 			{% if post.cover %}
